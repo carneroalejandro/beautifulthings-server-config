@@ -51,7 +51,7 @@ data:
       server {
         listen 80;
         location / {
-          proxy_pass https://bt-web.default.svc.cluster.local:8080;
+          proxy_pass https://beautifulthings.default.svc.cluster.local:8080;
         }
       }
     }

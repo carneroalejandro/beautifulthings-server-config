@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: beautifulthings
+  labels:
+    app: beautifulthings
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: beautifulthings
+  template:
+    metadata:
+      labels:
+        app: beautifulthings
+    spec:
+      containers:
+      - name: beautifulthings
+        image: gcr.io/spartan-calling-218821/beautifulthings:latest
+        ports:
+        - containerPort: 8080
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: beautifulthings
+spec:
+  selector:
+    app: beautifulthings
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080

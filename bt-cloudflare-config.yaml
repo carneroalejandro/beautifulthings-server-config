@@ -19,7 +19,7 @@ spec:
       - name: kubernetes-cloudflare-sync
         image: gcr.io/spartan-calling-218821/kubernetes-cloudflare-sync
         args:
-        - --dns-name=beautifulthings.app
+        - --dns-name=server.beautifulthings.app
         env:
         - name: CF_API_KEY
           valueFrom:
