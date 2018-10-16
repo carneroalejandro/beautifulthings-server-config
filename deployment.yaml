@@ -1,7 +1,7 @@
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: beautifulthings-dep
+  name: beautifulthings
   labels: {app: beautifulthings}
 spec:
   replicas: 1
@@ -51,7 +51,7 @@ spec:
     port: 8080
     targetPort: 8080
 ---
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1
 kind: Ingress
 metadata:
   name: beautifulthings-ingress
