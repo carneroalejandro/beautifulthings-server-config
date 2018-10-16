@@ -1,0 +1,69 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: beautifulthings-dep
+  labels: {app: beautifulthings}
+spec:
+  replicas: 1
+  template:
+    metadata: {labels: {app: beautifulthings}}
+    spec:
+      containers:
+        - name: beautifulthings
+          image: gcr.io/spartan-calling-218821/beautifulthings:latest
+          ports:
+            - containerPort: 8080
+          env:
+          - name: STORE
+            value: cached+gcs
+          volumeMounts:
+          - name: gcs
+            mountPath: "/etc/gcs"
+            readOnly: true
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 8080
+            periodSeconds: 1
+            timeoutSeconds: 1
+            successThreshold: 1
+            failureThreshold: 10
+      volumes:
+      - name: gcs
+        secret:
+          secretName: gcs
+          items:
+          - key: BeautifulThings-8ab395939a12.json
+            path: gcs.json
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: beautifulthings-svc
+  labels:
+    app: beautifulthings
+spec:
+  type: NodePort
+  selector:
+    app: beautifulthings
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: beautifulthings-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: beautifulthings-ip
+  labels:
+    app: beautifulthings
+spec:
+  backend:
+    serviceName: beautifulthings-svc
+    servicePort: 8080
+  tls:
+  - secretName: beautifulthings-app-tls
+    hosts:
+    - beautifulthings.app
