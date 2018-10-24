@@ -19,9 +19,12 @@ spec:
       - image: nginx:1.15.3-alpine
         name: nginx
         ports:
-        - name: https
+        - name: http
           containerPort: 80
           hostPort: 80
+        - name: https
+          containerPort: 443
+          hostPort: 443
         volumeMounts:
         - name: "config"
           mountPath: "/etc/nginx"
@@ -51,7 +54,14 @@ data:
       server {
         listen 80;
         location / {
-          proxy_pass https://beautifulthings-svc.default.svc.cluster.local:8080;
+          proxy_pass https://beautifulthings-ingress.default.svc.cluster.local:80;
+        }
+      }
+
+      server {
+        listen 443;
+        location / {
+          proxy_pass https://beautifulthings-ingress.default.svc.cluster.local:443;
         }
       }
     }
