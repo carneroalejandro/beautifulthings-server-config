@@ -47,7 +47,7 @@ spec:
       terminationGracePeriodSeconds: 0
       containers:
       - name: kubernetes-cloudflare-sync
-        image: gcr.io/doxsey-1/kubernetes-cloudflare-sync
+        image: gcr.io/spartan-calling-218821/kubernetes-cloudflare-sync 
         args:
         - --dns-name=server.beautifulthings.app
         env:
