@@ -1,0 +1,1000 @@
+   12  kubectl delete deployments/beautifulthings
+   13  kubectl delete deployments/beautifulthings-dep
+   14  kubectl get pods
+   15  kubectl apply -f .
+   16  kubectl get pods
+   17  kubectl logs --v=3 -f beautifulthings-dep-ccbd87497-wf274
+   18  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-6n828
+   19  vim deployment.yaml 
+   20  kubectl apply -f .
+   21  kubectl get pods
+   22  kubectl get services
+   23  vim bt-nginx.yaml 
+   24  kubectl apply -f .
+   25  vim bt-nginx.yaml 
+   26  kubectl get pods
+   27  kubectl logs --v=3 -f nginx-ggggm
+   28  kubectl get pods
+   29  kubectl apply -f bt-nginx.yaml 
+   30  kubectl get pods
+   31  vim bt-nginx.yaml 
+   32  kubectl delete -f bt-nginx.yaml 
+   33  kubectl apply -f bt-nginx.yaml 
+   34  kubectl get pods
+   35  kubectl get services
+   36  kubectl get deployments
+   37  vim deployment.yaml 
+   38  kubectl apply -f .
+   39  kubectl get pods
+   40  vim deployment.yaml 
+   41  vim bt-cloudflare-config.yaml 
+   42  vim bt-cloudflare-run.yaml 
+   43  kubectl delete -f .
+   44  kubectl apply -f .
+   45  kubectl get pods
+   46  kubectl delete -f .
+   47  kubectl apply -f .
+   48  kubectl get pods
+   49  kubectl apply -f .
+   50  kubectl get pods
+   51  kubectl delete bt-cloudflare-run.yaml 
+   52  kubectl delete -f  bt-cloudflare-run.yaml 
+   53  kubectl apply -f .
+   54  kubectl delete -f .
+   55  kubectl apply -f .
+   56  kubectl get pods
+   57  kubectl get services
+   58  kubectl get deploys
+   59  kubectl get deployments
+   60  ls
+   61  cd beautifulthings
+   62  cd beautifulthings-server-config/
+   63  ls
+   64  mv ver ../
+   65  cd ..
+   66  mv ver old-configs
+   67  mv nginx.yaml old-configs/
+   68  ls
+   69  mv beautifulthings.yaml old-configs/
+   70  ls
+   71  cd beautifulthings-server-config/
+   72  ls
+   73  vim deployment.yaml 
+   74  cd ..
+   75  ls
+   76  cd beautifulthings.server/
+   77  ls
+   78  kubectl delete deployments/beautitulthings-dep
+   79  kubectl delete deployments/beautifulthings-dep
+   80  kubectl get pods
+   81  kubectl apply -f kubernetes/deployment.yaml 
+   82  kubectl get pods
+   83  kubectl get pods log beautifulthings-dep-5b975d6f4-4fggk
+   84  kubectl logs --v=3 -f beautifulthings-dep-5b975d6f4-4fggk
+   85  kubectl delete deployments/beautitulthings-dep
+   86  kubectl delete deployments/beautifulthings-dep
+   87  kubectl get pods
+   88  cd kubernetes/
+   89  kubectl apply -f deployment.yaml 
+   90  kubectl get pods
+   91  kubectl logs --v=3 -f beautifulthings-dep-5b975d6f4-jlqj5
+   92  cd ..
+   93  cd //
+   94  cd ..
+   95  ls
+   96  cd home/alejandro_carnero/beautifulthings-server-config/
+   97  vim deployment.yaml 
+   98  kubectl delete deployments/beautifulthings-dep
+   99  kubectl get pods
+  100  kubectl apply -f deployment.yaml 
+  101  vim deployment.yaml 
+  102  kubectl delete deployments/beautifulthings-dep
+  103  kubectl apply -f deployment.yaml 
+  104  vim deployment.yaml 
+  105  cd ..
+  106  cd alejandro_carnero/
+  107  ls
+  108  cd beautifulthings.server/
+  109  ls
+  110  ./makefile
+  111  ls
+  112  .Makefile
+  113  ./Makefile
+  114  sudo
+  115  sh Makefile
+  116  sh Makefile build
+  117  ./Makefile build
+  118  kubectl get pods
+  119  cd ..
+  120  cd beautifulthings-server-config/
+  121  kubectl apply -f deployment.yaml 
+  122  kubectl logs --v=3 -f beautifulthings-dep-5b975d6f4-jlqj5
+  123  kubectl get pods
+  124  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-fvmcb
+  125  kubectl delete deployments/beautifulthings-dep
+  126  cd beautifulthings-
+  127  cd beautifulthings-server-config
+  128  ls
+  129  kubectl get pods
+  130  kubectl apply -f deployment.yaml 
+  131  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-fvmcb
+  132  kubectl get pods
+  133  kubectl apply -f deployment.yaml 
+  134  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-fvmcb
+  135  kubectl get pods
+  136  kubectl logs --v=3 -f beautifulthings-dep-56bc69d68f-wqhqc
+  137  kubectl delete deployments/beautifulthings-dep
+  138  kubectl get pods
+  139  kubectl apply -f deployment.yaml 
+  140  kubectl logs --v=3 -f beautifulthings-dep-56bc69d68f-wqhqc
+  141  kubectl get pods
+  142  kubectl logs --v=3 -f beautifulthings-dep-b4c567b9f-hk78z
+  143  kubectl delete deployments/beautifulthings-dep
+  144  kubectl apply -f deployment.yaml 
+  145  kubectl get pods
+  146  kubectl logs --v=3 -f beautifulthings-dep-55778f5844-qgk9g
+  147  kubectl delete deployments/beautifulthings-dep
+  148  kubectl get pods
+  149  kubectl apply -f deployment.yaml 
+  150  kubectl get pods
+  151  kubectl logs --v=3 -f beautifulthings-dep-cd4b75bc9-sj5gw
+  152  kubectl logs --v=3 -f beautifulthings-dep-56bc69d68f-wqhqc
+  153  kubectl delete deployments/beautifulthings-dep
+  154  kubectl apply -f deployment.yaml 
+  155  kubectl get pods
+  156  kubectl logs --v=3 -f beautifulthings-dep-6999c5bbc-mpqjz
+  157  cd ..
+  158  cd beautifulthings.server/
+  159  ls
+  160  kubectl delete deployments/beautifulthings-dep
+  161  vim deployment.yaml 
+  162  cp deployment.yaml ../beautifulthings.server/
+  163  ls
+  164  cd ..
+  165  cd beautifulthings.server/
+  166  ls
+  167  vim Makefile 
+  168  vim deployment.yaml 
+  169  cd ..
+  170  cd beautifulthings.server/
+  171  ls
+  172  kubectl delete deployments/beautifulthings-dep
+  173  kubectl apply -f deployment.yaml 
+  174  kubectl get pods
+  175  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-7gwnm
+  176  kubectl delete deployments/beautifulthings-dep
+  177  kubectl apply -f deployment.yaml 
+  178  kubectl get pods
+  179  kubectl logs --v=3 -f beautifulthings-dep-6999c5bbc-w4wd7
+  180  ls
+  181  kubectl delete deployments/beautifulthings-dep
+  182  kubectl apply -f deployment.yaml 
+  183  kubectl get pods
+  184  kubectl logs --v=3 -f beautifulthings-dep-6999c5bbc-5brg6
+  185  kubectl delete deployments/beautifulthings-dep
+  186  kubectl get pods
+  187  kubectl apply -f deployment.yaml 
+  188  kubectl delete deployments/beautifulthings-dep
+  189  kubectl get pods
+  190  kubectl apply -f deployment.yaml 
+  191  kubectl get pods
+  192  kubectl delete deployments/beautifulthings-dep
+  193  kubectl get pods
+  194  kubectl apply -f deployment.yaml 
+  195  kubectl get pods
+  196  kubectl describe pods
+  197  kubectl delete deployments/beautifulthings-dep
+  198  kubectl get pods
+  199  kubectl apply -f deployment.yaml 
+  200  mv deployment.yaml ../beautifulthings-server-config/
+  201  cd ../beautifulthings-server-config/
+  202  ls
+  203  ls
+  204  kubectl apply -f deployment.yaml 
+  205  kubectl get pods
+  206  cd ..
+  207  kubectl apply -f deployment.yaml 
+  208  kubectl get pods
+  209  docker images
+  210  kubectl get pods
+  211  ls
+  212  cd beautifulthings-server-config/
+  213  git status
+  214  vim .deployment.yaml.swp 
+  215  ls
+  216  vim deployment.yaml 
+  217  git diff
+  218  ls
+  219  git add beautifulthings.yaml 
+  220  git status
+  221  git add bt-nginx.yaml 
+  222  git add bt-cloudflare-config.yaml 
+  223  git add deployment*
+  224  git status
+  225  git add deployment2.yaml 
+  226  git add deployment3.yaml 
+  227  git status
+  228  git commit -m "Update config files"
+  229  git status
+  230  git pull --rebase
+  231  git push origin master
+  232  ls
+  233  kubectl delete deployments/beautifulthings-dep
+  234  kubectl get pods
+  235  kubectl apply -f deployment.yaml 
+  236  ls
+  237  cd beautifulthings-server-config/
+  238  kubectl apply -f deployment.yaml 
+  239  kubectl get pods
+  240  kubectl logs --v=3 -f beautifulthings-dep*
+  241  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-pmsl7
+  242  kubectl delete deployments/beautifulthings-dep
+  243  kubectl get pods
+  244  kubectl apply -f deployment.yaml 
+  245  kubectl get pods
+  246  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-pmsl7
+  247  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-dczwx
+  248  kubectl delete deployments/beautifulthings-dep
+  249  kubectl get pods
+  250  kubectl apply -f deployment.yaml 
+  251  kubectl get pods
+  252  kubectl logs --v=3 -f beautifulthings-dep-5bb4ddddf-dczwx
+  253  kubectl logs --v=3 -f beautifulthings-dep-56bc69d68f-fm6nw
+  254  kubectl delete deployments/beautifulthings-dep
+  255  kubectl get pods
+  256  kubectl apply -f deployment.yaml 
+  257  kubectl get pods
+  258  kubectl logs --v=3 -f beautifulthings-dep-9b669cd66-pj76c
+  259  kubectl delete deployments/beautifulthings-dep
+  260  kubectl get pods
+  261  kubectl apply -f deployment.yaml 
+  262  kubectl get pods
+  263  kubectl logs --v=3 -f beautifulthings-dep-67d6d9cc6d-qhjrt
+  264  ls
+  265  cd beautifulthings-server-config/
+  266  orion
+  267  tmux
+  268  ls
+  269  vim 
+  270  ls 
+  271  cd beautifulthings-server-config/
+  272  git status
+  273  ls
+  274  cd beautifulthings-server-config/
+  275  LS
+  276  ls
+  277  git status
+  278  git diff deployment.yaml
+  279  vim deployment.yaml 
+  280  kubectl get secret credentials -o yaml
+  281  ls
+  282  s
+  283  ls
+  284  vim spartan-calling-218821-840554007754.json
+  285  vim deployment.yaml 
+  286  kubectl apply -f deployment.yaml 
+  287  kubectl create secret generic gcs --from-file spartan-calling-218821-840554007754.json 
+  288  kubectl get secret credentials -o yaml
+  289  kubectl apply -f deployment.yaml 
+  290  gcloud auth activate-service-account --key-file 
+  291  gcloud auth activate-service-account --key-file spartan-calling-218821-840554007754.json
+  292  kubectl apply -f deployment.yaml 
+  293  kubectl create secret generic gcs --from-file spartan-calling-218821-840554007754.json 
+  294  kubectl apply -f deployment.yaml 
+  295  vim spartan-calling-218821-840554007754.json 
+  296  kubectl apply -f deployment.yaml 
+  297  kubectl get pods
+  298  kubectl logs --v=3 -f beautifulthings-dep-648c9dd4cb-gq8jh
+  299  kubectl get deployment
+  300  kubectl get services
+  301  vim deployment.yaml 
+  302   gcloud container clusters get-credentials bt-cluster --zone southamerica-east1-c --project spartan-calling-218821 \
+  303  ping
+  304  ping 10.59.255.215
+  305  cd beautifulthings-server-config/
+  306  ls
+  307  vim bt-nginx.yaml 
+  308  kubectl apply -f bt-nginx.yaml 
+  309  vim bt-nginx.yaml 
+  310  kubectl apply -f bt-nginx.yaml \
+  311  kubectl apply -f bt-nginx.yaml
+  312  kubectl get deployment
+  313  kubectl delete deployments/beautifulthings-dep
+  314  kubectl get services
+  315  kubectl get pods
+  316  vim bt-nginx.yaml 
+  317  kubectl delete pod/nginx-nm49k
+  318  kubectl delete pod/nginx-w4f7h
+  319  kubectl delete pod/nginx-zvxzg
+  320  kubectl get pods
+  321  kubectl apply -f .
+  322  kubectl get pods
+  323  kubectl delete -f .
+  324  ls
+  325  kubectl apply -f .
+  326  kubectl get pods
+  327  vim bt-nginx.yaml 
+  328  kubectl delete -f .
+  329  kubectl apply -f .
+  330  kubectl get pods
+  331  kubectl delete -f .
+  332  kubectl apply -f bt-cloudflare-config.yaml 
+  333  kubectl apply -f bt-cloudflare-run.yaml 
+  334  kubectl apply -f deployment.yaml 
+  335  kubectl get pods
+  336  kubectl apply -f bt-nginx.yaml 
+  337  vim bt-nginx.yaml 
+  338  kubectl delete -f .
+  339  kubectl apply -f bt-cloudflare-config.yaml 
+  340  kubectl apply -f bt-cloudflare-run.yaml 
+  341  kubectl apply -f deployment.yaml 
+  342  kubectl apply -f bt-nginx.yaml 
+  343  kubectl get pods
+  344  vim bt-nginx.yaml 
+  345  kubectl delete -f .
+  346  vim bt-nginx.yaml 
+  347  kubectl apply -f bt-cloudflare-config.yaml 
+  348  kubectl apply -f bt-cloudflare-run.yaml 
+  349  kubectl apply -f bt-nginx.yaml 
+  350  kubectl apply -f deployment.yaml 
+  351  kubectl get pods
+  352  kubectl delete -f .
+  353  vim bt-nginx.yaml 
+  354  vim deployment.yaml 
+  355  vim bt-cloudflare-config.yaml 
+  356  kubectl apply -f bt-cloudflare-config.yaml 
+  357  kubectl apply -f bt-cloudflare-run.yaml 
+  358  kubectl apply -f deployment.yaml 
+  359  kubectl apply -f bt-nginx.yaml 
+  360  kubectl get pods
+  361  kubectl delete -f .
+  362  kubectl get pods
+  363  vim bt-nginx.yaml 
+  364  kubectl apply -f bt-cloudflare-config.yaml 
+  365  kubectl apply -f bt-cloudflare-run.yaml 
+  366  kubectl apply -f deployment.yaml 
+  367  kubectl apply -f bt-nginx.yaml 
+  368  kubectl get pods
+  369  ls
+  370  kubectl get pods
+  371  kubectl get services
+  372  ping 10.59.250.48
+  373  ping 10.59.250.1
+  374  kubectl delete -f .
+  375  cd beautifulthings-server-config/
+  376  kubectl delete -f .
+  377  kubectl run bt-web --type=(*) --image=gcr.io/${PROJECT_ID}/beautifulthings:v1 --port 8080
+  378  kubectl run bt-web --type=LoadBalancer --image=gcr.io/${PROJECT_ID}/beautifulthings:latest --port 8080
+  379  kubectl run bt-web --image=gcr.io/${PROJECT_ID}/beautifulthings:v1 --port 8080
+  380  kubectl run bt-web --image=gcr.io/${PROJECT_ID}/beautifulthings:latest --port 8080
+  381  cd ..
+  382  cd beautifulthings.server/
+  383  ls
+  384  export PROJECT_ID="$(gcloud config get-value project -q)"
+  385  gcloud config set project spartan-calling-218821
+  386  gcloud config set compute/zone southamerica-east1-c
+  387  export PROJECT_ID="$(gcloud config get-value project -q)"
+  388  docker build -t gcr.io/${PROJECT_ID}/beautifulthings:latest .
+  389  docker images
+  390  gcloud auth configure-docker
+  391  ls
+  392  kubectl run bt-web --image=gcr.io/${PROJECT_ID}/beautifulthings:v1 --port 8080
+  393  kubectl run bt-web --image=gcr.io/${PROJECT_ID}/beautifulthings:latest --port 8080
+  394  kubectl run bt-web --image=gcr.io/${PROJECT_ID}/beautifulthings:v1 --port 8080
+  395  kubectl expose deployment bt-web --type=LoadBalancer --port 80 --target-port 8080
+  396  kubectl get services
+  397  kubectl get deployments
+  398  kubectl get services
+  399  ls
+  400  kubectl get services
+  401  kubectl delete services/bt-web
+  402  ls
+  403  cd ..
+  404  cd beautifulthings-server-config/
+  405  git status
+  406  vim .deployment.yaml.swn 
+  407  rm .deployment.yaml.swn
+  408  rm .deployment.yaml.swo
+  409  rm .deployment.yaml.swp
+  410  vim deployment.yaml 
+  411  kubectl get pods
+  412  kubectl delete pods/bt-web-68fbf69c76-lc9hj
+  413  kubectl get services
+  414  kubectl get deployments
+  415  kubectl delete deployments/bt-web
+  416  kubectl get deployments
+  417  kubectl get services
+  418  kubectl get pods
+  419  kubectl apply -f bt-cloudflare-config.yaml 
+  420  kubectl apply -f bt-cloudflare-run.yaml 
+  421  kubectl apply -f deployment.yaml 
+  422  kubectl apply -f bt-nginx.yaml 
+  423  vim bt-nginx.yaml 
+  424  git status
+  425  git diff 
+  426  vim bt-nginx.yaml 
+  427  kubectl delete -f .
+  428  kubectl apply -f bt-cloudflare-config.yaml 
+  429  kubectl apply -f bt-cloudflare-run.yaml 
+  430  kubectl apply -f deployment.yaml 
+  431  vim bt-nginx.yaml 
+  432  kubectl apply -f bt-nginx.yaml 
+  433  vim bt-nginx.yaml 
+  434  kubectl apply -f bt-nginx.yaml 
+  435  kubectl delete -f bt-nginx.yaml 
+  436  kubectl apply -f bt-nginx.yaml 
+  437  kubectl get services
+  438  curl http://localhost:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  439  curl https://beautifulthings-svc.default.svc.cluster.local:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  440  curl http://beautifulthings-svc.default.svc.cluster.local:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  441  curl beautifulthings-svc.default.svc.cluster.local:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  442  curl 10.59.247.115:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  443  curl https://10.59.247.115:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  444  ping 10.56.47.7
+  445  ping 10.158.0.4
+  446  curl https://10.158.0.4:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  447  curl 10.158.0.4:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  448  curl https://beautifulthings.default.svc.cluster.local:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  449  curl https://beautifulthings:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  450  ls
+  451  vim bt-nginx.yaml 
+  452  kubectl delete -f bt-nginx.yaml 
+  453  kubectl apply -f bt-nginx.yaml 
+  454  vim bt-nginx.yaml 
+  455  kubectl delete -f bt-nginx.yaml 
+  456  kubectl apply -f bt-nginx.yaml 
+  457  vim bt-nginx.yaml 
+  458  kubectl delete -f bt-nginx.yaml 
+  459  kubectl apply -f bt-nginx.yaml 
+  460  vim bt-nginx.yaml 
+  461  kubectl delete -f bt-nginx.yaml 
+  462  kubectl apply -f bt-nginx.yaml 
+  463  git status
+  464  vim bt-nginx.yaml 
+  465  git status
+  466  git diff
+  467  git add bt-nginx.yaml deployment.yaml 
+  468  git status
+  469  git commit -m "update config"
+  470  git push origin master
+  471  git status
+  472  vim bt-nginx.yaml 
+  473  kubectl delete -f bt-nginx.yaml 
+  474  kubectl apply -f bt-nginx.yaml 
+  475  vim bt-nginx.yaml 
+  476  kubectl delete -f bt-nginx.yaml 
+  477  kubectl apply -f bt-nginx.yaml 
+  478  vim bt-nginx.yaml 
+  479  kubectl delete -f bt-nginx.yaml 
+  480  kubectl apply -f bt-nginx.yaml 
+  481  vim bt-nginx.yaml 
+  482  kubectl delete -f bt-nginx.yaml 
+  483  kubectl apply -f bt-nginx.yaml 
+  484  vim bt-nginx.yaml 
+  485  kubectl delete -f bt-nginx.yaml 
+  486  kubectl apply -f bt-nginx.yaml 
+  487  vim bt-nginx.yaml 
+  488  kubectl delete -f bt-nginx.yaml 
+  489  kubectl apply -f bt-nginx.yaml 
+  490  vim bt-nginx.yaml 
+  491  vim deployment.yaml 
+  492  kubectl delete -f bt-nginx.yaml 
+  493  kubectl apply -f bt-nginx.yaml 
+  494  kubectl delete -f bt-nginx.yaml 
+  495  kubectl apply -f bt-nginx.yaml 
+  496  kubectl delete -f bt-nginx.yaml 
+  497  kubectl apply -f bt-nginx.yaml 
+  498  kubectl get ingress
+  499  kubectl get service
+  500  kubectl delete -f bt-nginx.yaml 
+  501  kubectl apply -f bt-nginx.yaml 
+  502  kubectl get ingress
+  503  curl server.beautifulthings.app:443/things/2018-01-01/2019-01-01\?token\=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  504  curl server.beautifulthings.app/things/2018-01-01/2019-01-01\?token\=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  505  curl server.beautifulthings.app:443/things/2018-01-01/2019-01-01\?token\=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  506  kubectl delete -f bt-nginx.yaml 
+  507  kubectl apply -f bt-nginx.yaml 
+  508  kubectl get secrets
+  509  kubectl describe secrets/letsencrypt-prod
+  510  ls
+  511  cd beautifulthings-server-config/
+  512  kubectl delete -f .
+  513  ls
+  514  cd beautifulthings-server-config/
+  515  git status
+  516  git diff bt-nginx.yaml
+  517  git diff deployment.yaml
+  518  ls
+  519  git diff
+  520  git staatus
+  521  git status
+  522  git diff deployment.yaml
+  523  git checkout deployment.yaml
+  524  git status
+  525  git diff bt-nginx.yaml
+  526  git add bt-nginx.yaml
+  527  git commit -m "Update nginx config"
+  528  git push origin master
+  529  git status
+  530  ls
+  531  cd beautifulthings-server-config/
+  532  ls
+  533  git status
+  534  git pull --rebase
+  535  ls
+  536  mkdir key
+  537  mk spartan-calling-218821-840554007754.json key/
+  538  mkdir spartan-calling-218821-840554007754.json key/
+  539  mkdir spartan-calling-218821-840554007754.json key/.
+  540  ls
+  541  mv spartan-calling-218821-840554007754.json key
+  542  ls
+  543  vim deployment.yaml 
+  544  kubectl apply -f bt-cloudflare-config.yaml 
+  545  kubectl apply -f bt-cloudflare-run.yaml 
+  546  kubectl apply -f deployment.yaml 
+  547  mv key/spartan-calling-218821-840554007754.json .
+  548  ls
+  549  vim deployment.yaml 
+  550  kubectl delete -f deployment.yaml 
+  551  kubectl apply -f deployment.yaml 
+  552  vim deployment.yaml 
+  553  kubectl delete -f deployment.yaml 
+  554  kubectl apply -f deployment.yaml 
+  555  ls
+  556  kubectl delete -f deployment.yaml 
+  557  mv spartan-calling-218821-840554007754.json 
+  558  mv spartan-calling-218821-840554007754.json /key
+  559  mv spartan-calling-218821-840554007754.json key
+  560  ls key
+  561  ls
+  562  vim deployment.yaml 
+  563  kubectl get ingress
+  564  kubectl get pods
+  565  kubectl apply -f deployment.yaml 
+  566  mv key/spartan-calling-218821-840554007754.json .
+  567  ls
+  568  vim deployment.yaml 
+  569  kubectl delete -f deployment.yaml 
+  570  kubectl apply -f deployment.yaml 
+  571  curl 10.59.248.63:8080/things/2018-01-01/2019-01-01\?token\=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  572  curl http://10.59.248.63:8080/things/2018-01-01/2019-01-01\?token\=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  573  curl https://beautifulthings.default.svc.cluster.local:8080/things/2018-01-01/2019-01-01?token=sdkfjbfdshjbdsfhjsbdfkjhdsfbsdfjkhbsdfhbdf
+  574  kubectl apply -f letsencrypt.yml 
+  575  kubectl delete -f letsencrypt.yml 
+  576  vim ingress.yml 
+  577  vim nginx.yml 
+  578  kubectl apply -f nginx.yml 
+  579  vim nginx.yml 
+  580  kubectl delete -f nginx.yml 
+  581  kubectl apply -f ingress.yml 
+  582  kubectl apply -f .
+  583  vim letsencrypt.yml 
+  584  vim ingress.yml 
+  585  kubectl logs --v=3 -f beautifulthings-dep-648c9dd4cb-gq8jh
+  586  kubectl get ingress
+  587  kubectl logs --v=3 -f kubernetes-ingress-service
+  588  kubectl logs -f kubernetes-ingress-service
+  589  kubectl get pods
+  590  kubectl get services
+  591  minikube service ingress --url
+  592  minikube service kubernetes-ingress-service --url
+  593  cd beautifulthings-server-config/
+  594  vim deployment.yaml 
+  595  vim nginx.yml 
+  596  ls
+  597  vim letsencrypt.yml 
+  598  vim ingress.yml 
+  599  vim letsencrypt.yml 
+  600  kubectl get ingress
+  601  kubectl apply -f nginx.yml 
+  602  vim ingress.yml 
+  603  vim nginx.yml 
+  604  kubectl delete -f nginx.yml 
+  605  kubectl apply -f nginx.yml 
+  606  vim nginx.yml 
+  607  git checkout nginx.yml
+  608  vim nginx.yml 
+  609  kubectl delete -f nginx.yml 
+  610  kubectl apply -f nginx.yml 
+  611  kubectl delete -f nginx.yml 
+  612  vim nginx.yml 
+  613  kubectl apply -f nginx.yml 
+  614  kubectl delete -f nginx.yml 
+  615  vim nginx.yml 
+  616  kubectl apply -f nginx.yml 
+  617  vim nginx.yml 
+  618  kubectl delete -f nginx.yml 
+  619  kubectl apply -f nginx.yml 
+  620  vim nginx.yml 
+  621  kubectl delete -f nginx.yml 
+  622  vim nginx.yml 
+  623  kubectl apply -f nginx.yml 
+  624  vim letsencrypt.yml 
+  625  vim letsencrypt.yml ls
+  626  kubectl apply -f letsencrypt.yml 
+  627  vim nginx.yml 
+  628  kubectl apply -f nginx.yml 
+  629  vim nginx.yml 
+  630  kubectl delete -f nginx.yml 
+  631  kubectl apply -f nginx.yml 
+  632  kubectl delete -f nginx.yml 
+  633  kubectl apply -f nginx.yml 
+  634  git diff nginx.yml
+  635  vim nginx.yml 
+  636  kubectl delete -f nginx.yml 
+  637  kubectl apply -f nginx.yml 
+  638  vim nginx.yml 
+  639  kubectl delete -f nginx.yml 
+  640  kubectl apply -f nginx.yml 
+  641  kubectl delete -f nginx.yml 
+  642  ls
+  643  git diff nginx.yml
+  644  vim ingress.yml 
+  645  vim nginx.yml 
+  646  cp nginx.yml old-config/
+  647  git checkout nginx.yml
+  648  kubectl apply -f nginx.yml 
+  649  kubectl apply -f ingress.yml 
+  650  vim ingress.yml 
+  651  vim letsencrypt.yml 
+  652  cd old-config/
+  653  cd beautifulthings-server-config/
+  654  vim nginx.yml 
+  655  kubectl delete -f nginx.yml 
+  656  vim nginx.yml 
+  657  cd beautifulthings-server-config/
+  658  vim nginx.yml 
+  659  kubectl delete -f nginx.yml 
+  660  vim nginx.yml 
+  661  git status
+  662  git diff
+  663  kubectl delete -f nginx.yml 
+  664  vim nginx.yml 
+  665  kubectl delete -f nginx.yml 
+  666  kubectl apply -f nginx.yml 
+  667  ping 10.59.245.109:8
+  668  ping 10.59.245.109:80
+  669  kubectl delete -f nginx.yml 
+  670  cd beautifulthings-server-config/
+  671  cd old-config/
+  672  vim bt-nginx.yaml 
+  673  cp bt-nginx.yaml ../
+  674  cd ..
+  675  vim nginx.yml 
+  676  kubectl get services
+  677  kubectl apply -f nginx.yml 
+  678  kubectl get services
+  679  vim bt-nginx.yaml 
+  680  vim bt-
+  681  ls
+  682  vim bt-nginx.yaml 
+  683  kubectl apply -f bt-nginx.yaml 
+  684  vim bt-nginx.yaml 
+  685  kubectl delete -f bt-nginx.yaml 
+  686  vim bt-nginx.yaml 
+  687  kubectl apply -f bt-nginx.yml 
+  688  ls
+  689  kubectl apply -f bt-nginx.yaml 
+  690  vim bt-nginx.yaml 
+  691  kubectl delete -f bt-nginx.yaml 
+  692  vim bt-nginx.yaml 
+  693  kubectl apply -f bt-nginx.yaml 
+  694  vim bt-nginx.yaml 
+  695  cd beautifulthings-server-config/
+  696  vim nginx.yml 
+  697  vim nginx.yml 
+  698  kubectl delete -f bt-nginx.yaml 
+  699  kubectl delete -f nginx.yml 
+  700  kubectl apply -f nginx.yml 
+  701  kubectl apply -f bt-nginx.yaml 
+  702  kubectl delete -f bt-nginx.yaml 
+  703  kubectl delete -f nginx.yml 
+  704  vim nginx.yml 
+  705  kubectl apply -f nginx.yml 
+  706  kubectl apply -f bt-nginx.yaml 
+  707  kubectl delete -f bt-nginx.yaml 
+  708  kubectl delete -f nginx.yml 
+  709  vim nginx.yml 
+  710  vim bt-nginx.yaml 
+  711  vim nginx.yml 
+  712  kubectl apply -f nginx.yml 
+  713  kubectl delete -f nginx.yml 
+  714  kubectl delete -f bt-nginx.yaml 
+  715  ls
+  716  cd beautifulthings-server-config/
+  717  vim bt-nginx.yaml 
+  718  vim nginx.yaml 
+  719  vim nginx.yml 
+  720  kubectl apply -f nginx.yml 
+  721  kubectl delete -f nginx.yml 
+  722  kubectl apply -f nginx.yml 
+  723  kubectl apply -f bt-nginx.yaml 
+  724  vim nginx.yml 
+  725  vim bt-nginx.yaml 
+  726  kubectl delete -f nginx.yml 
+  727  kubectl delete -f bt-nginx.yaml 
+  728  kubectl delete -f nginx.yml 
+  729  vim nginx.yml 
+  730  kubectl apply -f nginx.yml 
+  731  vim nginx.yml 
+  732  kubectl delete -f nginx.yml 
+  733  kubectl apply -f nginx.yml 
+  734  vim nginx.yml 
+  735  kubectl delete -f nginx.yml 
+  736  kubectl apply -f nginx.yml 
+  737  kubectl delete -f nginx.yml 
+  738  vim nginx.yml 
+  739  kubectl delete -f nginx.yml 
+  740  ls
+  741  cd beautifulthings-server-config/
+  742  ls
+  743  git pull --rebase
+  744  git status
+  745  git diff deployment.yaml
+  746  git status
+  747  git checkout deployment.yaml
+  748  git diff nginx.yml
+  749  git checkout nginx.yml
+  750  ls
+  751  git status
+  752  rm .nginx.yml.swo 
+  753  ls
+  754  git status
+  755  mv bt-nginx.yaml old-config/
+  756  ls
+  757  git satus
+  758  git status
+  759  git diff old-config/bt-nginx.yaml
+  760  git checkout old-config/bt-nginx.yaml
+  761  git checkout old-config/nginx.yml
+  762  git status
+  763  git checkout old-config/nginx.yml
+  764  git status
+  765  git pull --rebase
+  766  git status
+  767  git new/
+  768  ls
+  769  cd new/
+  770  git status
+  771  ls
+  772  cd ..
+  773  ls
+  774  kubectl delete -f . 
+  775  cd new/
+  776  kubectl apply -f . 
+  777  kubectl delete -f . 
+  778  vim kubernetes-cloudflare-sync.yaml 
+  779  kubectl apply -f . 
+  780  kubectl delete -f . 
+  781  ls
+  782  cp ../spartan-calling-218821-840554007754.json 
+  783  cp ../spartan-calling-218821-840554007754.json  .
+  784  ls
+  785  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  786  kubectl apply -f letsencrypt.yaml 
+  787  kubectl create clusterrolebinding cluster-admin-binding --clusterrole cluster-admin --user chiiph@gmail.com
+  788  kubectl create secret generic cloudflare --from-literal=email='alejandro.carnero@unixono.com' --from-literal=api-key='cfd81b2caa28def07741550c3f54edd61274d'
+  789  kubectl delete -f . 
+  790  ls
+  791  kubectl apply -f . 
+  792  ls
+  793  cd beautifulthings
+  794  cd beautifulthings-server-config/
+  795  ls
+  796  cd new/
+  797  ls
+  798  vim beautifulthings.yaml 
+  799  git stauts
+  800  git status
+  801  git diff kubernetes-cloudflare-sync.yaml
+  802  q
+  803  git status
+  804  vim cert-manager.yaml 
+  805  cd beautifulthings-server-config/
+  806  ls
+  807  kubectl delete -f . 
+  808  vim .kubernetes-cloudflare-sync.yaml.swp 
+  809  rm .kubernetes-cloudflare-sync.yaml.swp 
+  810  ls
+  811  vim kubernetes-cloudflare-sync.yaml 
+  812  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  813  ls
+  814  kubectl apply -f letsencrypt.yaml 
+  815  kubectl delete -f letsencrypt.yaml 
+  816  vim letsencrypt.yaml 
+  817  kubectl apply -f letsencrypt.yaml 
+  818  vim letsencrypt.yaml 
+  819  kubectl delete -f letsencrypt.yaml 
+  820  kubectl apply -f letsencrypt.yaml 
+  821  git status
+  822  git checkout letsencrypt.yaml
+  823  vim letsencrypt.yaml 
+  824  kubectl create clusterrolebinding --clusterrole=cluster-admin --serviceaccount=default:default concourse-admin
+  825  kubectl create clusterrolebinding tiller-admin-binding --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+  826  ls
+  827  helm install —name m-cert-manager -f letsencrypt.yaml stable/cert-manager
+  828  .../helm/helm install —name m-cert-manager -f letsencrypt.yaml stable/cert-manager
+  829  ./helm/helm install —name m-cert-manager -f letsencrypt.yaml stable/cert-manager
+  830  ../helm/helm install —name m-cert-manager -f letsencrypt.yaml stable/cert-manager
+  831  .../helm/helm install —name m-cert-manager -f letsencrypt.yaml stable/cert-manager
+  832  ls
+  833  ls ../
+  834  ls .../
+  835  ls ..../
+  836  ls ../../
+  837  ../../helm/helm install —name m-cert-manager -f letsencrypt.yaml stable/cert-manager
+  838  ../../helm/helm install —name m-cert-manager -f ./letsencrypt.yaml stable/cert-manager
+  839  ../../helm/helm install --name m-cert-manager -f ./letsencrypt.yaml stable/cert-manager
+  840  kubectl apply -f letsencrypt.yaml 
+  841  kubectl apply -f .
+  842  kubectl delete -f .
+  843  kubectl apply -f .
+  844  kubectl delete -f .
+  845  ../../helm/helm install --name m-cert-manager -f ./letsencrypt.yaml stable/cert-manager
+  846  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  847  kubectl apply -f cert-manager.yaml 
+  848  kubectl apply -f letsencrypt.yaml 
+  849  kubectl apply -f beautifulthings.yaml 
+  850  kubectl apply -f nginx.yaml 
+  851  kubectl apply -f README.md 
+  852  kubectl describe secrets/letsencrypt-prod
+  853  kubectl get secret credentials -o yaml
+  854  vim beautifulthings.yaml 
+  855  ls
+  856  vim beautifulthings.yaml 
+  857  vim spartan-calling-218821-71c5db0e4d93.json
+  858  kubectl delete -f beautifulthings.yaml 
+  859  kubectl apply -f beautifulthings.yaml 
+  860  ls
+  861  vim beautifulthings.yaml 
+  862  git diff beautifulthings.yaml
+  863  vim spartan-calling-218821-71c5db0e4d93.json
+  864  git status
+  865  git diff kubernetes-cloudflare-sync.yaml
+  866  git add kubernetes-cloudflare-sync.yaml 
+  867  git status
+  868  git diff beautifulthings.yaml
+  869  ls
+  870  kubectl delete -f beautifulthings.yaml 
+  871  kubectl apply -f beautifulthings.yaml 
+  872  git checkout beautifulthings.yaml
+  873  ls
+  874  vim beautifulthings.yaml 
+  875  kubectl apply -f beautifulthings.yaml 
+  876  kubectl delete -f .
+  877  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  878  kubectl apply -f cert-manager.yaml 
+  879  kubectl apply -f letsencrypt.yaml 
+  880  kubectl apply -f beautifulthings.yaml 
+  881  kubectl apply -f nginx.yaml 
+  882  kubectl delete -f .
+  883  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  884  kubectl apply -f cert-manager.yaml 
+  885  kubectl apply -f letsencrypt.yaml 
+  886  kubectl apply -f beautifulthings.yaml 
+  887  kubectl apply -f nginx.yaml 
+  888  gsutil defacl ch -u 552405016537-compute@developer.gserviceaccount.com:OWNER gs://bt-main
+  889  vim beautifulthings.yaml 
+  890  kubectl delete -f beautifulthings.yaml 
+  891  kubectl apply -f beautifulthings.yaml 
+  892  kubectl delete -f .
+  893  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  894  kubectl apply -f cert-manager.yaml 
+  895  kubectl apply -f letsencrypt.yaml 
+  896  kubectl apply -f beautifulthings.yaml 
+  897  kubectl apply -f nginx.yaml 
+  898  git status
+  899  git diff beautifulthings.yaml
+  900  git checkout beautifulthings.yaml
+  901  ls
+  902  git status
+  903  kubectl describe pvc 
+  904  git status
+  905  git commit -m "Fix image cloudflare error"
+  906  gcloud auth application-default
+  907  gcloud auth configure-docker
+  908  cloud projects add-iam-policy-binding spartan-calling-218821  --member='552405016537-compute@developer.gserviceaccount.com' --role='roles/owner'
+  909  gcloud projects add-iam-policy-binding spartan-calling-218821  --member='552405016537-compute@developer.gserviceaccount.com' --role='roles/owner'
+  910  gcloud projects add-iam-policy-binding spartan-calling-218821 --member='552405016537-compute@developer.gserviceaccount.com' --role='roles/owner'
+  911  gcloud projects add-iam-policy-binding spartan-calling-218821 --member='552405016537-compute@developer.gserviceaccount.com' --role 'roles/owner'
+  912  gcloud projects add-iam-policy-binding spartan-calling-218821 --member='552405016537-compute@developer.gserviceaccount.com' --role roles/owner
+  913  cloud projects add-iam-policy-binding spartan-calling-218821  --member='serviceAccount:552405016537-compute@developer.gserviceaccount.com' --role='roles/owner'
+  914  gcloud projects add-iam-policy-binding spartan-calling-218821  --member='serviceAccount:552405016537-compute@developer.gserviceaccount.com' --role='roles/owner'
+  915  cd beautifulthings-server-config/
+  916  ls
+  917  git status
+  918  gti add old-config/nginx.yml 
+  919  git status
+  920  git add old-config/nginx.yml 
+  921  git status
+  922  git reset head old-config/nginx.yml
+  923  git reset HEAD old-config/nginx.yml
+  924  git diff old-config/nginx.yml
+  925  git status
+  926  ls
+  927  cd new/
+  928  kubectl delete -f beautifulthings.yaml 
+  929  kubectl apply -f beautifulthings.yaml 
+  930  kubectl delete -f .
+  931  kubectl apply -f .
+  932   gcloud container clusters get-credentials bt-cluster --zone southamerica-east1-c --project spartan-calling-218821  && kubectl get secret gcs -o yaml
+  933  gcloud auth activate-service-account --key-file spartan-calling-218821-840554007754.json
+  934  cd beautifulthings-server-config/
+  935  cd new/
+  936  gcloud auth activate-service-account --key-file spartan-calling-218821-840554007754.json
+  937  kubectl delete -f .
+  938  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  939  kubectl apply -f cert-manager.yaml 
+  940  kubectl apply -f letsencrypt.yaml 
+  941  kubectl apply -f beautifulthings.yaml 
+  942  kubectl apply -f nginx.yaml 
+  943  gcloud auth activate-service-account --key-file spartan-calling-218821-840554007754.json
+  944  ls
+  945  vim spartan-calling-218821-71c5db0e4d93.json 
+  946  vim spartan-calling-218821-840554007754.json 
+  947  rm spartan-calling-218821-71c5db0e4d93.json 
+  948  vim spartan-calling-218821-840554007754.json
+  949  vim spartan-calling-218821-c3056ed9347e.json
+  950  gcloud auth activate-service-account --key-file spartan-calling-218821-c3056ed9347e.json
+  951  vim dep
+  952  ls
+  953  vim beautifulthings.yaml 
+  954  kubectl delete -f .
+  955  kubectl apply -f kubernetes-cloudflare-sync.yaml 
+  956  kubectl apply -f cert-manager.yaml 
+  957  kubectl apply -f letsencrypt.yaml 
+  958  kubectl apply -f beautifulthings.yaml 
+  959  kubectl apply -f nginx.yaml 
+  960  gcloud auth activate-service-account --key-file spartan-calling-218821-c3056ed9347e.json
+  961  vim spartan-calling-218821-c3056ed9347e.json 
+  962  vim beautifulthings.yaml 
+  963  gcloud auth activate-service-account --key-file spartan-calling-218821-c3056ed9347e.json
+  964  kubectl apply -f beautifulthings.yaml 
+  965  gcloud auth activate-service-account --key-file spartan-calling-218821-c3056ed9347e.json
+  966  kubectl apply -f beautifulthings.yaml 
+  967  kubectl delete -f .
+  968  kubectl apply -f .
+  969  history
+  970  vim beautifulthings.yaml 
+  971  git diff beautifulthings.yaml
+  972  git checkout beautifulthings.yaml
+  973  kubectl delete -f .
+  974  kubectl apply -f .
+  975  kubectl get secres
+  976  kubectl get secrets
+  977  gcloud iam service-accounts list
+  978  history > history_for_print.txt
+  979  vim history_for_print.txt 
+  980  kubectl create secret generic gcs --from-file spartan-calling-218821-840554007754.json 
+  981  kubectl create secret generic gcs --from-file spartan-calling-218821-c3056ed9347e.json 
+  982  gcloud auth activate-service-account --key-file spartan-calling-218821-c3056ed9347e.json
+  983  kubectl delete -f .
+  984  kubectl apply -f .
+  985  vim beautifulthings.yaml 
+  986  kubectl delete -f .
+  987  kubectl apply -f .
+  988  kubectl delete -f .
+  989  kubectl apply -f .
+  990  kubectl delete -f .
+  991  kubectl apply -f .
+  992  kubectl delete -f .
+  993  kubectl apply -f .
+  994  ls
+  995  kubectl getsecrets
+  996  kubectl get secrets
+  997  kubectl get secrets gcs
+  998  ls
+  999  less beautifulthings.yaml 
+ 1000  kubectl apply -f beautifulthings.yaml 
+ 1001  cd beautifulthings-server-config/
+ 1002  git status
+ 1003  rm spartan-calling-218821-840554007754.json 
+ 1004  rm old-config/nginx.yml 
+ 1005  ls
+ 1006  git status
+ 1007  git diff new/beautifulthings.yaml
+ 1008  git status
+ 1009  git add new/history_for_print.txt 
+ 1010  cd new
+ 1011  history > history_for_print.txt
