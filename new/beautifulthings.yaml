@@ -44,7 +44,7 @@ spec:
         secret:
           secretName: gcs
           items:
-          - key: spartan-calling-218821-840554007754.json
+          - key: spartan-calling-218821-3348c633f71c.json
             path: gcs.json
 ---
 kind: Service
