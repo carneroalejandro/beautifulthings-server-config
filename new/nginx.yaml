@@ -73,6 +73,7 @@ data:
         ssl_certificate_key /etc/tls/beautifulthings/tls.key;
 
         location / {
+          proxy_read_timeout 200;
           proxy_pass http://beautifulthings.default.svc.cluster.local:8080;
         }
       }
