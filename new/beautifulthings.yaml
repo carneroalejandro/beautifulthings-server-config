@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 0
       containers:
       - name: beautifulthings
-        image: gcr.io/spartan-calling-218821/beautifulthings:latest
+        image: docker.io/chiiph/beautifulthings:f944197
         ports:
         - containerPort: 8080
         resources:
